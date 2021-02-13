@@ -1,0 +1,19 @@
+{
+  "name": "node-as-aws-devops",
+  "version": "1.0.0",
+  "description": "Node.js script code for AWS DevOps.",
+  "author": "CreatiCoding",
+  "scripts": {
+    "start:domain": "node src/domain-connect.js",
+    "reset:domain": "node src/domain-connect.js delete",
+    "start:hosting": "node src/static-hosting.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatiCoding/node-as-aws-devops.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.843.0"
+  }
+}
